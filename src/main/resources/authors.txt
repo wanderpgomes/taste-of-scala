@@ -1,0 +1,7 @@
+Robert Martin
+Kent   Beck
+Martin Fowler
+Martin Odersky
+Donald Knuth
+Robert Sedgewick
+PaulChiusano
