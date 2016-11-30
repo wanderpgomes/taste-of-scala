@@ -14,10 +14,11 @@ def inOrder(t: Tree): List[Int] = t match {
 //        /  \
 //       2   3
 //      / \ / \
-//     4  - - -
+//     4  - -  -
 //    / \
 //   -   -
 
 val t1 = Node(1, Node(2, Node(4, Leaf, Leaf), Leaf), Node(3, Leaf, Leaf))
 
 inOrder(t1)
+
