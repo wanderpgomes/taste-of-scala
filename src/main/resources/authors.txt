@@ -1,7 +1,8 @@
 Robert Martin
-Kent   Beck
+Kent Beck
 Martin Fowler
 Martin Odersky
 Donald Knuth
 Robert Sedgewick
 PaulChiusano
+Douglas  Crockford
