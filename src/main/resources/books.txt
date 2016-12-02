@@ -1,0 +1,8 @@
+Clean Code
+Refactoring
+Test-Driven Development
+Programming in Scala
+The Art of Computer Programming
+Algorithms
+Functional Programming in Scala
+Javascript The Simple Parts
