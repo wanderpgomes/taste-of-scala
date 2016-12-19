@@ -40,7 +40,11 @@ hostPort._2
 
 Map(1 -> 2)
 Map("foo" -> "bar")
-Map(1 -> "one", 2 -> "two")
+val myMap = Map(1 -> "one", 2 -> "two")
+myMap(1)
+myMap(2)
+myMap.get(2)
+
 
 
 
@@ -49,5 +53,5 @@ val fruitList = List("apples", "oranges", "pears")
 val fruit = "apples" :: ("oranges" :: ("pears" :: Nil)) // parens optional, :: is right-associative
 fruit.head   // "apples"
 fruit.tail   // List("oranges", "pears")
-val empty = List()
-val empty = Nil
+val emptyL = List()
+val emptyN = Nil

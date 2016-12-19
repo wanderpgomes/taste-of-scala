@@ -30,9 +30,19 @@
  
 ## Option
 
+
+
 ## Classes
 
+[https://www.scala-exercises.org/std_lib/classes](https://www.scala-exercises.org/std_lib/classes)
+
+## Objects
+
+ - [https://www.scala-exercises.org/std_lib/objects](https://www.scala-exercises.org/std_lib/objects)
+
 ## Traits
+
+ - [https://www.scala-exercises.org/std_lib/traits](https://www.scala-exercises.org/std_lib/traits)
 
 ## Concurrency
 
