@@ -17,20 +17,14 @@
 
 ## Collections
 
-
- ### Lists
  - [https://www.scala-exercises.org/std_lib/lists](https://www.scala-exercises.org/std_lib/lists)
 
- ### Sets
  - [https://www.scala-exercises.org/std_lib/sets](https://www.scala-exercises.org/std_lib/sets)
 
- ### Maps
  - [https://www.scala-exercises.org/std_lib/maps](https://www.scala-exercises.org/std_lib/maps)
  
- ### Ranges
  - [https://www.scala-exercises.org/std_lib/ranges](https://www.scala-exercises.org/std_lib/ranges)
  
- ### Sequences and Arrays
  - [https://www.scala-exercises.org/std_lib/sequences_and_arrays](https://www.scala-exercises.org/std_lib/sequences_and_arrays)
  
  
