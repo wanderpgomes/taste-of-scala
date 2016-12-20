@@ -2,7 +2,6 @@ import scala.beans.BeanProperty
 
 
 class Point(var x: Int, var y: Int) {
-
   override def toString: String = "(" + x + ", " + y + ")"
 }
 
