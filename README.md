@@ -1,11 +1,12 @@
 
-## What is Scala
+## What is Scala?
 
-## Why learn Scala
+## Why learn Scala?
 
-## How does it compare to Java 8
+## How does it compare to Java 8?
 
-## Exercises
+## Lab Exercises
+
 
 ### Higher-Order Functions
 
@@ -50,7 +51,3 @@
 ### Traits
 
  - [https://www.scala-exercises.org/std_lib/traits](https://www.scala-exercises.org/std_lib/traits)
-
-### Concurrency
-
-### Test
