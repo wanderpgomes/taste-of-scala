@@ -13,6 +13,7 @@
   * Better support for immutability
   * JVM Based language
   * Use existing Java libraries
+  * Good tooling and documentation
   * Several cool features, such as pattern matching, for-comprehensions, traits, named and default parameters, etc.
 
 ## Isn't Java 8 enough?
