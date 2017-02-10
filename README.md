@@ -1,9 +1,24 @@
 
 ## What is Scala?
+   * 'Scala' means Scalable Language. 
+   * Started in 2001 at the École Polytechnique Fédérale de Lausanne (EPFL) by Martin Odersky.
+   * Released publicly in 2004.
+   * It's a Strongly Typed Functional and Object Oriented Language.
+   * JVM Based Language
 
 ## Why learn Scala?
 
-## How does it compare to Java 8?
+  * Better developer productivity
+  * More expressive language
+  * Better support for immutability
+  * JVM Base language
+  * Use existing Java libraries
+  * Several cool features, such as pattern matching, for-comprehensions, traits, named and default parameters, etc.
+
+## Isn't Java 8 enough?
+
+  * Not a functional language
+  * More verbose
 
 ## Lab Exercises
 
@@ -51,3 +66,9 @@
 ### Traits
 
  - [https://www.scala-exercises.org/std_lib/traits](https://www.scala-exercises.org/std_lib/traits)
+
+
+## Videos
+
+ - [Scala in a Java 8 World](https://youtu.be/8vxTowBXJSg)
+ - [Scala Tutorial](https://youtu.be/DzFt0YkZo8M)
