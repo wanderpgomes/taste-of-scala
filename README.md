@@ -11,8 +11,11 @@
   * Better developer productivity.
   * More expressive language.
   * Better support for immutability.
-  * JVM Based language (interoperability with Java).
-  * Use existing Java libraries.
+  * Better support for Parallel Programming.
+  * Largely adopted on the 'Big Data' space. 
+  * JVM Based language. 
+  * Interoperability with Java, including frameworks like Spring and Hibernate.
+  * Usage of existing Java libraries.
   * Good tooling and documentation.
   * Several cool features, such as pattern matching, for-comprehensions, traits, named and default parameters, etc.
 
