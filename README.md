@@ -22,7 +22,7 @@
 
 ## Isn't Java 8 enough?
 
-  * Nope.
+  * Nope. Hopefully you'll see it too.
 
 ## Lab Exercises
 
