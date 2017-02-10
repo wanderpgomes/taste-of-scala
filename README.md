@@ -11,7 +11,7 @@
   * Better developer productivity
   * More expressive language
   * Better support for immutability
-  * JVM Base language
+  * JVM Based language
   * Use existing Java libraries
   * Several cool features, such as pattern matching, for-comprehensions, traits, named and default parameters, etc.
 
@@ -68,7 +68,10 @@
  - [https://www.scala-exercises.org/std_lib/traits](https://www.scala-exercises.org/std_lib/traits)
 
 
-## Videos
+## Videos and Resources
 
  - [Scala in a Java 8 World](https://youtu.be/8vxTowBXJSg)
  - [Scala Tutorial](https://youtu.be/DzFt0YkZo8M)
+ - [Scala Language](http://scala-lang.org)
+ - [Scala Center](https://scala.epfl.ch)
+ - [Scala Days](http://scaladays.org)
