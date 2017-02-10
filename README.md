@@ -10,6 +10,7 @@
 
   * Better developer productivity.
   * More expressive language.
+  * Functional Language by design.
   * Better support for immutability.
   * Better support for Parallel Programming.
   * Largely adopted on the 'Big Data' space. 
@@ -21,8 +22,7 @@
 
 ## Isn't Java 8 enough?
 
-  * Not a functional language by design.
-  * More verbose.
+  * Nope.
 
 ## Lab Exercises
 
