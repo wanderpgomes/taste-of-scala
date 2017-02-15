@@ -18,11 +18,9 @@
   * Interoperability with Java, including frameworks like Spring and Hibernate.
   * Usage of existing Java libraries.
   * Good tooling and documentation.
-  * Several cool features, such as pattern matching, for-comprehensions, traits, named and default parameters, etc.
+  * Several cool features, such as Pattern Matching, For-Comprehensions, Traits, named and Default Parameters, etc.
+  * Makes you a better programmer in other languages such as Java and Javascript.
 
-## Isn't Java 8 enough?
-
-  * Nope. Hopefully you'll see it too.
 
 ## Lab Exercises
 
@@ -30,7 +28,7 @@
 ### Higher-Order Functions
 
  - [https://www.scala-exercises.org/std_lib/higher_order_functions](https://www.scala-exercises.org/std_lib/higher_order_functions)
- - [https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming](`https://www.scala-exercises.org/fp_in_scala/getting_started_with_functional_programming`)
+ 
 
 ### For-Comprehensions
 
@@ -77,5 +75,6 @@
  - [Scala in a Java 8 World](https://youtu.be/8vxTowBXJSg)
  - [Scala Tutorial](https://youtu.be/DzFt0YkZo8M)
  - [Scala Language](http://scala-lang.org)
+ - [Scala Fiddle](http://scalafiddle.net/)
  - [Scala Center](https://scala.epfl.ch)
  - [Scala Days](http://scaladays.org)
