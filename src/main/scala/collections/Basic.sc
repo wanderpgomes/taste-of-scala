@@ -1,3 +1,5 @@
+import scala.collection.mutable
+
 // Arrays preserve order, can contain duplicates, and are mutable.
 val numbersA= Array(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
 
@@ -9,8 +11,11 @@ numbersA foreach println
 
 // Lists preserve order, can contain duplicates, and are immutable.
 val numbersL = List(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
-
 //numbersL(3) = 10
+
+val numbersIL = mutable.MutableList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+numbersIL(3) = 10
+
 
 
 // Sets do not preserve order and have no duplicates
@@ -34,16 +39,21 @@ hostPort._2
 
 1 until 12 toList
 
-
+val someNumbers = Range(0, 10)
+val moreNumbers = Range(0, 10).inclusive
 
 // Maps
 
 Map(1 -> 2)
-Map("foo" -> "bar")
-val myMap = Map(1 -> "one", 2 -> "two")
+Map("foo" -> "bar", 1 -> "one")
+var myMap = Map(1 -> "one", 2 -> "two")
 myMap(1)
 myMap(2)
 myMap.get(2)
+myMap.getOrElse(3, "missing data")
+
+myMap = Map(4 -> "four", 5 -> "five") withDefaultValue("key not found")
+myMap(1)
 
 
 
