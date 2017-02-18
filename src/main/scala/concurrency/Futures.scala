@@ -13,13 +13,13 @@ object FuturesExample extends App {
 
   // not too exciting, the result will always be 42. but more importantly, when?
   println("1 - starting calculation ...")
-  val f = Future {
+  val future = Future {
     sleep(Random.nextInt(500))
     42
   }
 
   println("2- before onComplete")
-  f.onComplete {
+  future.onComplete {
     case Success(value) => println(s"Got the callback, meaning = $value")
     case Failure(e) => e.printStackTrace
   }

@@ -8,14 +8,16 @@ abs(-3)
 abs(2)
 
 // assign abs to a variable fn
-val fn: (Int => Int) = abs
+val f: (Int => Int) = abs
 
 // pass fn as parameter
-List(-1, 0, 1, -2, 3, -4).map(fn)
+List(-1, 0, 1, -2, 3, -4).map(f)
 
 
 // pass lambda as parameter
-List(-2, -1, 0, 1, 3).map(n => fn(n) + 10)
+List(-2, -1, 0, 1, 3).map(n => f(n) + 10)
+
+List(-2, -1, 0, 1, 3).map(f(_) + 10)
 
 
 

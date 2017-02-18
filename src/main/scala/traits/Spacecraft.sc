@@ -19,8 +19,6 @@ trait PulseEngine extends Spacecraft {
   }
 }
 
-class StarCruiser extends Spacecraft
-  with CommandoBridge
-  with PulseEngine {
+class StarCruiser extends Spacecraft with CommandoBridge with PulseEngine {
   val maxPulse = 200
 }

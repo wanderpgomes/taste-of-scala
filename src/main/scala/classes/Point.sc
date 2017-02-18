@@ -13,13 +13,14 @@ class Location (var xl: Int, var yl: Int) extends Point (xl, yl) {
     x = x + dx
     y = y + dy
 
-    println (this);
+    println("new location after move: " + this);
   }
 }
 
-
 val loc = new Location(1, 2)
 loc.move(2, 2)
+
+
 
 
 
@@ -37,4 +38,5 @@ p.getAge
 p.setAge(26)
 
 p.lastName
+p.getLastName
 p.getAge

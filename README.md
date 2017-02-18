@@ -1,4 +1,8 @@
 
+# A Taste Of Scala
+
+
+
 ## What is Scala?
    * 'Scala' means Scalable Language. 
    * It's a Functional and Object Oriented Programming Language.
@@ -9,7 +13,8 @@
 ## Why learn Scala?
 
   * Better developer productivity.
-  * More expressive language.
+  * More expressive Language.
+  * Type Inference.
   * Functional Language by design.
   * Better support for immutability.
   * Better support for Parallel Programming.

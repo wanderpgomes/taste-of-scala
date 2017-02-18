@@ -32,6 +32,7 @@ numbers.filter(isEven)
 // zip
 // Aggregates the contents of two lists into a single list of pairs.
 List(1, 2, 3).zip(List("a", "b", "c"))
+
 (0 to 100 by 10).zip(0 to 100 by 10 tail)
 
 
@@ -60,18 +61,17 @@ num.foldLeft(0) { (m: Int, n: Int) => println("m: " + m + " n: " + n); m + n }
 
 // foldRight
 // Is the same as foldLeft except it runs in the opposite direction.
-
 num.foldRight(0) { (m: Int, n: Int) => println("m: " + m + " n: " + n); m + n }
+
 
 // flatten
 // flatten collapses one level of nested structure.
-
 List(List(1, 2), List(3, 4)).flatten
+
 
 // flatMap
 // flatMap is a frequently used combinator that combines mapping and flattening.
 // flatMap takes a function that works on the nested lists and then
 // concatenates the results back together.
-
 val nestedNumbers = List(List(1, 2), List(3, 4))
 nestedNumbers.flatMap(x => x.map(_ * 2))

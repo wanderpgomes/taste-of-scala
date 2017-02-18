@@ -9,3 +9,9 @@ Person(firstName = "John", middleName = "M", lastName = "Doe")
 Person(firstName = "John")
 Person(lastName = "Doe")
 Person(firstName = "John", lastName = "Doe")
+
+
+val person = new Person("Mr")
+
+person.salutation
+person.firstName

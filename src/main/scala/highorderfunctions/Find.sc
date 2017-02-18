@@ -1,3 +1,4 @@
+// Specific for Strings
 def findFirst(ss: Array[String], key: String): Int = {
   @annotation.tailrec
   def loop(n: Int): Int =
@@ -10,12 +11,12 @@ def findFirst(ss: Array[String], key: String): Int = {
 
 val names = Array("aa", "bb", "cc", "dd", "bb")
 
-findFirst(names, "bb")
+findFirst(names, "cc")
 findFirst(names, "xx")
 
 
 
-
+// Generic version. Pass a predicate function.
 def findFirst[A](as: Array[A], p: A => Boolean): Int = {
   @annotation.tailrec
   def loop(n: Int): Int =
@@ -29,7 +30,7 @@ def findFirst[A](as: Array[A], p: A => Boolean): Int = {
 val numbers = Array(1, 2, 4, 6, 4, 6, 4)
 
 findFirst[Int](numbers, n => n > 2)
-findFirst[String](names, _.equals("bb"))
+findFirst[String](names, _.equals("dd"))
 
 
 
