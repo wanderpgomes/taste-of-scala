@@ -63,6 +63,7 @@ num.foldLeft(0) { (m: Int, n: Int) => println("m: " + m + " n: " + n); m + n }
 // Is the same as foldLeft except it runs in the opposite direction.
 num.foldRight(0) { (m: Int, n: Int) => println("m: " + m + " n: " + n); m + n }
 
+num.reduceRight(_ + _)
 
 // flatten
 // flatten collapses one level of nested structure.
